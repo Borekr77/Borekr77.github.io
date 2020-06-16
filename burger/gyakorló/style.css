@@ -1,0 +1,121 @@
+body{
+  width:960px;
+  margin:6% auto;
+  font-family: Arial, "MS Trebuchet", sans-serif;
+}
+
+p{
+  margin:0 0 20px 0;
+}
+p, li{
+  line-height:20px;
+}
+
+h1 {
+  text-align: center;
+}
+header#page-header{
+  width:100%;
+}
+header#page-header nav ul, #page-footer nav ul{
+  list-style: none; /* remove the bullets */
+  margin: 0;
+  padding: 0;
+}
+#page-header nav ul li, footer#page-footer nav ul li{
+  padding:0;
+  margin: 0 20px 0 0;
+  display:inline;
+}
+section#main-section{
+  float: left;
+  width: 74%;
+}
+section#main-section aside{
+  float: right;
+  width: 35%;
+  margin-left: 5%;
+  font-size: 20px;
+  line-height: 40px;
+}
+section#rightnav-section{
+  float: left;
+  width: 25%;
+}
+footer {
+  float: left;
+  width: 100%;
+}
+footer#page-footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+    /* Fixed bottom-nav */
+
+    ul.topnav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #bebebe;
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+    ul.topnav>li {
+        float: left;
+    }
+
+    ul.topnav>li a {
+        display: block;
+        color: #000;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    ul.topnav>li a:hover:not(.active) {
+        background-color: #555;
+        color: #fff;
+    }
+
+    ul.topnav>li a.active {
+        background-color: #ff333d;
+    }
+    /*table tr th {             szegély a fejléc körül
+        border: solid 1px #aaa999;
+        background-color: #808000;
+        color: #FFFF00;
+      }*/
+      table tr td {             szegély a cellák körül
+        border: solid 1px #aaa999;
+        color: #FFFFFF;
+      }*/
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+      }
+      table {
+        background-color: khaki;
+      }
+     table tr th {
+        background-color: #808000;
+      }
+
+      tr:nth-child(even) {
+        background-color: #0055;
+      }
+      tr:nth-child(odd) {
+        background-color: #004500;
+      }
+      table tr th, table tr td {            /*fejléc és cellék sormagassága együtt beállítva*/
+        padding: 5px 10px;              
+      }
+      table tr td:nth-child(1) {
+        text-align: center;
+      }
+      /*table tr td:nth-last-child(1) {
+        text-align: right;
+      }

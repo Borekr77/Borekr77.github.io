@@ -1,14 +1,54 @@
+@font-face{
+  font-family: "opensans";
+  src: url(/Sprint03/CSS/Fonts/opensans/OpenSans-Bold.ttf);
+  font-size: 24px;
+}
+
 h1 {
     color: red;  
     font-family: Arial, Helvetica, sans-serif
+  }
+  h3{
+    font-family: 'roboto', sans-serif;
+  }
+  #bioHeader{
+    color: brown;
+  }
+  #skillsHeader{
+    color: coral;
+  }
+  #gyakorló{
+    font-size: 40px;
   }
   p{
       color: gray ;
       font-size: 24px;
   }
+  .content{
+    color: green;
+    font-size: 34px;
+    font-family: "opensans";
+    text-align: left;
+    text-transform: none;
+    line-height: normal;
+    font-weight: lighter;
 
+  }
+  .violet{
+    color: violet;
+  }
+  .img-div{
+background-color: lightblue;
+
+  }
+  .light{
+    background-color: indigo;
+  }
 
   img {
-    width: 299px; 
+    width: 12.2%; /*széttolás az oldalon*/
+    height: 100px;
+    margin: 2%; /*kép körüli határ*/
+    box-shadow: 0 0 20px burlywood; /* árnyékolás:árnyékeltolás jobbra balra árnyékvastagság árnyék szín*/
    
 }

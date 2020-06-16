@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>MyHTML5 Page</title>
+    <link rel="stylesheet" href="/gyakorló/style.css">
+    <style>
+        #map {
+          height: 40%;
+        }
+        html, body {
+          height: 100%;
+          margin: 0;
+          padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="map" ></div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCrLuCEeTt_nBjOCTAkDFRv5r46yJkYDSk"
+    async defer></script>
+    <script>
+        var map;
+        function initMap() {
+          map = new google.maps.Map(document.getElementById('map'), {
+            center: {lat: 53.430938, lng: -2.960841},
+            zoom: 17
+          });
+        }
+      </script>
+
+
+
+
+    <header id="page-header">
+        <h1>My First Blog</h1>
+
+        <nav>
+            <ul class="topnav">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="pagelink1.html">Page 1</a></li>
+                <li><a href="pagelink2.html">Page 2</a></li>
+                <li><a href="pagelink3.html">Page 3</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="main-section">
+        <article div style="background-color:lightsalmon;">
+
+            <header>
+                <h1>My First Blog Post</h1>
+            </header>
+            <p>
+                Lorem ipsum dolor sit amet, albucius euripidis abhorreant eos in. Sit utroque torquatos in, qui
+                dolor
+                adipisci an. Debet utamur voluptatibus ut nec, solet accumsan mediocritatem ut his, vide labitur
+                suavitate in vix. Mel congue volumus no. ipsum dolor sit amet, albucius euripidis abhorreant eos in. Sit utroque torquatos in, qui
+                dolor
+                adipisci an. Debet utamur voluptatibus ut nec, solet accumsan mediocritatem ut his, vide labitur
+                suavitate in vix. Mel congue volumus no.
+            </p>
+            <p>
+                Eripuit nusquam antiopam ne has, at mel quidam possit, quot choro quando at nam. No mel nemore
+                eruditi
+                interpretaris. Nam dignissim forensibus ut. Per ex sale neglegentur. In case feugiat sea, his justo
+                illum te, ea eos utamur officiis perpetua. Vero partiendo repudiandae eos no, error legendos id has,
+                nam
+                ut modo consequuntur.
+            </p>
+            <aside div style="font-size: xx-large; background-color: maroon;">
+
+                <p>
+                    Lorem ipsum dolor sit amet, albucius euripidis abhorreant eos in. Sit utroque torquatos in, qui
+                    dolor adipisci an. Debet utamur voluptatibus ut nec, solet accumsan mediocritatem ut his, vide
+                    labitur suavitate in vix. Mel congue volumus no.
+                </p>
+            </aside>
+
+            <footer>
+                Reference: Djamware Blog
+            </footer>
+        </article>
+
+    </section>
+    </div>
+    <section id="rightnav-section">
+        <header>
+            <h1>Navigation</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="recent">Recent Post</a></li>
+                <li><a href="popular">Popular Post</a></li>
+                <li><a href="about">About Us</a></li>
+                <li><a href="contact">Contact Us</a></li>
+            </ul>
+        </nav>
+        <table >
+            <tr>
+                <th>No.</th>
+                <th>Full Name</th>
+                <th>Position</th>
+                <th>Salary</th>
+                <th>Type</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Bill Gates</td>
+                <td>Founder Microsoft</td>
+                <td>$1000</td>
+                <td rowspan="5">Company Founder</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Steve Jobs</td>
+                <td>Founder Apple</td>
+                <td>$1200</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Larry Page</td>
+                <td>Founder Google</td>
+                <td>$1100</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Mark Zuckeberg</td>
+                <td>Founder Facebook</td>
+                <td>$1300</td>
+            </tr>
+            <tr>
+                <td colspan="3">Total Expense:</td>
+                <td>$4600</td>
+                <td></td>
+            </tr>
+        </table>
+    </section>
+
+    <footer id="page-footer">
+        
+        Copyright 2016. Djamware.com
+    </footer>
+</body>
+
+</html>

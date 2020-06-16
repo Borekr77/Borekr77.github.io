@@ -5,10 +5,10 @@
 }
 @font-face {
     font-family: "roboto light";
-    src: url("fonts/roboto/");
-    @fo
+    src: url("fonts/roboto/Roboto-Light.ttf");
     font-weight: 200; 
 }
+
 @font-face{
     font-family: "opensans";
     src: url("fonts/opensans/OpenSans-Bold.ttf");
@@ -21,13 +21,63 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 html {
-    font-family: "roboto";
-    text-transform: uppercase;
+    font-family: 'roboto', sans-serif;
+    text-transform: none;
 }
+.fősor{
+    background-color: indigo;
+}
+.sor1{
+    background-color: khaki;
+}
+.sor2{
+    background-color: lightblue;
+}
+   
+   /* id szelektor: egyedi azonosítója egy konkrét elemnek, pl:<h2>Kérd menüben</h2> id vel: <h2 id="menu">Kérd menüben</h2>, 
+   egy konkrét elemre más egyedi paraméterezés megadása*/
+#menü{
+        color: crimson;
+        font-size: 60px;
+    }
+
+li{
+    font-size: 20px;
+    line-height: 1.5em;
+  }
+td{
+    font-size: 20px;
+    line-height: 1.5em;
+    border-style: none;
+}
+th{
+    font-size: 30px;
+    line-height: 1.5em;
+    color: #28a745;
+    font-weight: bold;
+        }
+
 h1 {
-    color: gray;
-    font-family: 'Raleway', sans-serif;
-    text-align: center;
+
+    font-family: 'opensans', sans-serif;/*betűtípus*/
+    font-size: 40px; /*betűméret*/
+    color:maroon;/*betű színe*/
+    font-weight: bold;/*betű vastagság*/
+    font-variant: small-caps; /*Első betű nagyobb*/
+    }
+h2{
+    font-size: 30px;
+    font-family: "roboto light";
+    color: brown;
+    font-variant: small-caps;
+    text-align: justify; /*szöveg igazítás jobb, bal, közép, sorkizárt, stb*/
+    line-height: 20px; /*sormagasság*/
+    font-weight: lighter; /*betű vastagság*/
+}
+.all{
+    width: 80%;
+    min-width: 150px;
+    margin: 0 auto;
 }
 p {
     color: gray;
@@ -38,6 +88,48 @@ p {
     line-height: 30px;
     font-weight: lighter;
         }
-img {
-    width: 200px;
+/*table{
+    color: brown;
+    font-size: 24px;
+    font-family: "roboto light";
+    text-align: center;
+    text-transform: none;
+    line-height: 20px;
+    font-weight: lighter;
+    margin: 2%;
+    border-collapse: collapse; /*táblázatrács eltüntetése*/
+   /* padding: 2%;
+    width: 80%;
+     }*/
+table{
+border-collapse: collapse;
+border-spacing: 0;
+box-shadow: 0 0 100px rgba(0,0,0,2);
+     }
+ul{
+
+    color: gray;
+    font-size: 24px;
+    font-family: "roboto light";
+    text-align: justify;
+    text-transform: none;
+    line-height: 20px;
+    font-weight: lighter;
 }
+img {
+    width: 12%; /*széttolás az oldalon*/
+    margin: 30px;
+    box-shadow: 3px 3px 20px burlywood; /* árnyékolás:árnyékeltolás jobbra balra árnyékvastagság árnyék szín*/
+
+    }
+    
+#kep1:id{
+        width: 150px;
+        margin: 30px;
+    }
+#térkép{
+        width: 2%; /*széttolás az oldalon*/
+        margin: 60px;
+        box-shadow: 3px 3px 20px burlywood; /* árnyékolás:árnyékeltolás jobbra balra árnyékvastagság árnyék szín*/
+     
+    }
