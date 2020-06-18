@@ -5,31 +5,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Étlap</title>
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <table>
-        <tr><a href="/">Elérhetőségünk </a></tr>
-        <tr><a href="/etlap.html">Étlap </a></tr>
-        <tr><a href="/akciok.html">Akcióink </a></tr>
-    </table>
 
+
+    <div id="header">
+        <header>
+            <nav id="navStyle">
+                <table>
+                    <tr ><a id="navGomb" href="index.html">Elérhetőségünk </a></tr>
+                    <tr><a id="navGomb" href="/etlap.html">Étlap </a></tr>
+                    <tr><a id="navGomb" href="/akciok.html">Akcióink </a></tr>
+                </table>
+            </nav>
+        </header>
+    </div>
     <h1>Étel- és italkínálatunk</h1>
 
     <table>
+
         <thead>
             <tr>
-                <th><img width="25" src="/img/hambi ikon2.jpg" alt="ikon"></th>
-                <th>Szendvicsek</th>
-                <th><img width="25" src="/img/hambi ikon2.jpg" alt="ikon"></th>
+                <th>
+                    <div class="ikonLeft"><img width="25" src="/img/hambi ikon2.jpg" alt="ikon"></div>
+                </th>
+                <th>
+                    <div class="katCím">Szendvicsek
+                </th>
+                </div>
+                <th>
+                    <div class="ikonRight"><img width="25" src="/img/hambi ikon2.jpg" alt="ikon"></div>
+                </th>
             </tr>
         </thead>
+
         <tbody>
             <tr>
                 <td>1.</td>
                 <td>Hamburger</td>
-                <td>1 090 Ft</td>
+                <td div class="árOszlop">1 090 Ft</td>
             </tr>
             <tr>
                 <td>2.</td>
@@ -74,9 +90,16 @@
         </tbody>
         <thead>
             <tr>
-                <th><img width="25" src="/img/hambi ikon2.jpg" alt="ikon"></th>
-                <th>Köretek</th>
-                <th><img width="25" src="/img/hambi ikon2.jpg" alt="ikon"></th>
+                <th>
+                    <div class="ikonLeft"><img width="25" src="/img/hambi ikon2.jpg" alt="ikon"></div>
+                </th>
+                <th>
+                    <div class="katCím">Köretek
+                </th>
+                </div>
+                <th>
+                    <div class="ikonRight"><img width="25" src="/img/hambi ikon2.jpg" alt="ikon"></div>
+                </th>
             </tr>
         </thead>
         <tbody>
@@ -103,9 +126,16 @@
         </tbody>
         <thead>
             <tr>
-                <th><img width="25" src="/img/hambi ikon2.jpg" alt="ikon"></th>
-                <th>Italok</th>
-                <th><img width="25" src="/img/hambi ikon2.jpg" alt="ikon"></th>
+                <th>
+                    <div class="ikonLeft"><img width="25" src="/img/hambi ikon2.jpg" alt="ikon"></div>
+                </th>
+                <th>
+                    <div class="katCím">italok
+                </th>
+                </div>
+                <th>
+                    <div class="ikonRight"><img width="25" src="/img/hambi ikon2.jpg" alt="ikon"></div>
+                </th>
             </tr>
         </thead>
         <tbody>
@@ -157,5 +187,6 @@
         </tbody>
     </table>
 </body>
+</div>
 
 </html>
