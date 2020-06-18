@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+html{
+    font-family: 'Roboto', sans-serif; 
+}
+h1, h2{
+color: saddlebrown;
+text-transform: uppercase;
+}
+
+
+
+.képAkciók {
+    width: 200px;
+}
