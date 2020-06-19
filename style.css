@@ -30,8 +30,8 @@ position: relative;
 }
 h1{
     font-size: 40px;
-    font-weight: bold;
-    top: 20%;
+    top: auto;
+    right: auto;
 }
 h2{
     font-size: 30px;
@@ -40,15 +40,16 @@ h2{
     height: 100%;
 }
 table{
+    margin-top: 15px;
     height: 100%;
     width: 100%;
     border-collapse: collapse;
+    table-layout: auto;
 }
 
 p, ul li, tr td  {
     font-size: 20px;
     line-height: 30px;
-
     position: relative;
 }
 tr th, tr td{
@@ -56,41 +57,36 @@ tr th, tr td{
     border: none;
     border-style: none;
     margin: 0;
-
+    border-bottom: solid 1px white;
 }
 
 th {
     color: #28a745;
     font-size: 40px;  
     background-color: rgb(255, 255, 255);
-    
-}
-.header{
-    margin: 0;
-    padding 0;
-    width: 100%;
+    }
+#navStyle{
+    position: relative;
+    padding-top: 15px;
+     }
+#navGomb:hover{
+    background-color: rgb(255, 208, 0);
+    color: maroon;
 }
 #navGomb{
     display: inline-block;
-    width: 31%;
+    width: 31.3%;
     min-width: 120px;
-    height: 30px;
     background-color: maroon;
     text-align: center;
-    box-shadow: 1px 3px 3px;
+    box-shadow: 1px 3px 3px whitesmoke;
     padding: 10px;
-    margin: 5px;
+    margin: 3px;
     color: rgb(255, 208, 0);
-    border-radius: 10px;    
+    font-weight: bold;
+    border-radius: 7px;    
+    text-decoration: none;  
 }
-#navStyle{
-    position: relative;
-    top: 10px;
-    left: 10px;
-    right: 10px;
-
-}
-
 .ikonLeft{
     position: relative;
     text-align: left;  
@@ -102,9 +98,7 @@ th {
 .katCím{
     padding: 0 100px 0 100px;
 }
-/*.árOszlop{
-    padding:0 200px 0 0
-}*/
+
 tr:nth-child(even){
     background-color: rgb(245, 216, 113);
 }
@@ -113,4 +107,18 @@ tr:nth-child(odd){
 }
 .képAkciók {
     width: 200px;
+    padding-left: 600px;
+    overflow: auto;
+}
+.dobozAkció h2{
+    background-color: rgb(245, 216, 113) ;
+    margin: 0;
+    padding: 20px 20px;
+
+}
+.dobozAkció p{
+    background-color: rgb(245, 216, 113) ;
+    margin: 0;
+    padding: 20px 20px;
+    margin: 0 0 20px 0;
 }
