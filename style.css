@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
-
 /*
 font-family: 'Open Sans', sans-serif;
 font-family: 'Roboto', sans-serif;
@@ -9,83 +8,109 @@ font-family: 'Roboto', sans-serif;
     font-family: "Lucida";
     src: url(fonts/Lucida\ sans/);
     }
-html, body{
+html {
     font-family: 'Roboto', sans-serif; 
-    background-color: white;
-  /*height: 100%;
-    margin: 0;
-    padding: 0;*/
-}
-#sideRight{
-
-    padding: 0 0 0 25px;
     background-color: rgb(255, 208, 0);
+    height: 100%;
+    margin: 0 10%;
 }
-#navGomb{
-    display: inline-block;
-    width: 200px;
-    height: 30px;
-    background-color: maroon;
-    text-align: center;
-    box-shadow: 1px 3px 3px;
-    padding: 10px;
-    margin: 10px;
-    color: rgb(255, 208, 0);
-    border-radius: 10px;    
-}
-#navStyle{
-    margin: 0px 30px;
-    position: fixed;
+body{
+
+    background-color: white;    
+    margin: 0;
+    padding: 0 3%;
+    position: relative;
+
 }
 h1, h2{
 font-family: 'Open Sans', sans-serif;
 color: maroon;
 font-variant: small-caps;
+position: relative;
 }
 h1{
     font-size: 40px;
     font-weight: bold;
-    padding-top: 10%;
+    top: 20%;
 }
 h2{
     font-size: 30px;
 }
+.container{
+    height: 100%;
+}
+table{
+    height: 100%;
+    width: 100%;
+    border-collapse: collapse;
+}
+
 p, ul li, tr td  {
     font-size: 20px;
     line-height: 30px;
+
+    position: relative;
 }
 tr th, tr td{
     font-family: "Lucida";
     border: none;
     border-style: none;
+    margin: 0;
+
 }
 
 th {
     color: #28a745;
     font-size: 40px;  
     background-color: rgb(255, 255, 255);
+    
 }
+.header{
+    margin: 0;
+    padding 0;
+    width: 100%;
+}
+#navGomb{
+    display: inline-block;
+    width: 31%;
+    min-width: 120px;
+    height: 30px;
+    background-color: maroon;
+    text-align: center;
+    box-shadow: 1px 3px 3px;
+    padding: 10px;
+    margin: 5px;
+    color: rgb(255, 208, 0);
+    border-radius: 10px;    
+}
+#navStyle{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+
+}
+
 .ikonLeft{
-    padding: 1px;
+    position: relative;
+    text-align: left;  
 }
 .ikonRight{
-    padding: 0 0 0 90%;    
+    position: relative;   
+    text-align: right;
 }
 .katCím{
     padding: 0 100px 0 100px;
 }
-.árOszlop{
+/*.árOszlop{
     padding:0 200px 0 0
-}
+}*/
 tr:nth-child(even){
     background-color: rgb(245, 216, 113);
 }
 tr:nth-child(odd){
     background-color: rgb(255, 233, 153);
 }
-
-
-
 .képAkciók {
     width: 200px;
 }
