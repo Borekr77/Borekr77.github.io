@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+@font-face {
+    font-family: "Lucida";
+    src: url(fonts/Lucida\ sans/);
+    }
+html {
+    font-family: 'Roboto', sans-serif; 
+    background-color: rgb(255, 208, 0);
+    height: 100%;
+    margin: 0 10%;
+}
+body{
+
+    background-color: white;    
+    margin: 0;
+    padding: 0 3%;
+    position: relative;
+
+}
+h1, h2{
+font-family: 'Open Sans', sans-serif;
+color: maroon;
+font-variant: small-caps;
+position: relative;
+}
+h1{
+    font-size: 40px;
+    top: auto;
+    right: auto;
+}
+h2{
+    font-size: 30px;
+}
+.container{
+    height: 100%;
+}
+table{
+    margin-top: 15px;
+    height: 100%;
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: auto;
+}
+
+p, ul li, tr td  {
+    font-size: 20px;
+    line-height: 30px;
+    position: relative;
+}
+tr th, tr td{
+    font-family: "Lucida";
+    border: none;
+    border-style: none;
+    margin: 0;
+    border-bottom: solid 1px white;
+}
+
+th {
+    color: #28a745;
+    font-size: 40px;  
+    background-color: rgb(255, 255, 255);
+    }
+#navStyle{
+    position: relative;
+    padding-top: 15px;
+     }
+#navGomb:hover{
+    background-color: rgb(255, 208, 0);
+    color: maroon;
+}
+.navGomb{
+    display: inline-block;
+    width: 31.3%;
+    min-width: 120px;
+    background-color: maroon;
+    text-align: center;
+    box-shadow: 1px 3px 3px whitesmoke;
+    padding: 10px;
+    margin: 3px;
+    color: rgb(255, 208, 0);
+    font-weight: bold;
+    border-radius: 7px;    
+    text-decoration: none;  
+}
+.ikonLeft{
+    position: relative;
+    text-align: left;  
+}
+.ikonRight{
+    position: relative;   
+    text-align: right;
+}
+.katCím{
+    padding: 0 100px 0 100px;
+}
+
+tr:nth-child(even){
+    background-color: rgb(245, 216, 113);
+}
+tr:nth-child(odd){
+    background-color: rgb(255, 233, 153);
+}
+.képAkciók {
+    width: 200px;
+    padding-left: 600px;
+    overflow: auto;
+}
+.dobozAkció h2{
+    background-color: rgb(245, 216, 113) ;
+    margin: 0;
+    padding: 20px 20px;
+
+}
+.dobozAkció p{
+    background-color: rgb(245, 216, 113) ;
+    margin: 0;
+    padding: 20px 20px;
+    margin: 0 0 20px 0;
+}
